@@ -1,3 +1,5 @@
+
+// java ResizingArrayStack < ../data/tobe.txt 
 import java.util.Arrays;
 
 public class BinarySearch {
