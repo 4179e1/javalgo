@@ -4,7 +4,7 @@ JC = javac
 .java.class:
 	$(JC) $(JFLAGS) $*.java
 
-CLASSES = $(shell find . | grep *.java)
+CLASSES = $(shell find . | grep .java)
 
 default: classes
 
